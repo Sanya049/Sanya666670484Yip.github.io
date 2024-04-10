@@ -1,0 +1,74 @@
+/* Basic styles */
+body {
+    background-image: url(images/texture1.jpg);
+    background-repeat: repeat ;
+    background-attachment: scroll ;
+    background-position: center ;
+    font-family: Arial, sans-serif,;
+    line-height: 1.6;
+    background-color: #3445a1;}
+
+nav ul {
+    list-style-type: none;}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;}
+
+nav ul li a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;}
+
+img { display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;}
+
+table {
+        border-collapse: collapse;}
+    
+th, td {
+        border: 1px solid #43b75c;
+        padding: 8px;
+        text-align: left;}
+    
+th {background-color: #8299ff;}
+
+.about-banner {
+    background-image: url("images/about\ us.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    text-align: center;
+    justify-content: center;}
+
+.about-title {
+    font-size: 36px;
+    color: rgb(235, 235, 235);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+
+.about-content {
+    padding: 20px;}
+
+.contact-banner { background-size: cover;
+    background-position: center;
+    height: 100px;
+    text-align: center;
+    justify-content: center;}
+
+.contact-banner {
+        background-image: url("contact-banner.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 50;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;}
+    
+.centre { text-align: center;}
+        
+.contact-title {
+        font-size: 18px;
+        color: #090f5f;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
